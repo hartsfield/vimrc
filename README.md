@@ -11,6 +11,7 @@ Instructions for compiling vim with the clipboard+terminal+other necessary featu
  3. Clone the vim source code repository: https://github.com/vim/vim
  4. cd into the repository
  5. run:
+
     ./configure --with-features=huge --enable-terminal=yes
     make
     sudo make install
