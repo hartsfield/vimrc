@@ -1,6 +1,8 @@
 # vimrc
 My .vimrc for Golang/Bolt/Web
 
+![Screenshot from 2023-08-25 00-22-02](https://github.com/hartsfield/vimrc/assets/30379836/dc59a4e1-c5a7-4119-83ac-6f842cc6ae77)
+
 Install VimPlug first, then open vim and run `:PlugInstall`
 
 ## Instructions for compiling vim with the clipboard+terminal+other necessary features:
@@ -17,4 +19,9 @@ Install VimPlug first, then open vim and run `:PlugInstall`
         $ make
         $ sudo make install
 
-![Screenshot from 2023-08-25 00-22-02](https://github.com/hartsfield/vimrc/assets/30379836/dc59a4e1-c5a7-4119-83ac-6f842cc6ae77)
+## How to get the status bar and split terminals? tmux
+
+1. Add these lines to the end of your `.tmux.conf`:
+
+        set -g mouse
+        set-option -g status-position top
